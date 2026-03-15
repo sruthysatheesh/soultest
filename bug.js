@@ -18,7 +18,7 @@ app.get('/', function(req, res) {
    }
  } else {
    res.cookie('profile', "eyJ1c2VybmFtZSI6ICJBc3RyYWVhIn0=", { maxAge: 900000, httpOnly: true });
-   res.send("Welcome! Cookie set.");
+   res.send("Welcome hehhe! Cookie set.");
  }
 });
 
